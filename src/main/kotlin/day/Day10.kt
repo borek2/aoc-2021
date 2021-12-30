@@ -85,15 +85,4 @@ class Day10(
         CHUNK_3('{', '}', 1197, 3),
         CHUNK_4('<', '>', 25137, 4),
     }
-
-    companion object {
-
-        /**
-         * ): 3 points.
-        ]: 57 points.
-        }: 1197 points.
-        >: 25137 points.
-         */
-
-    }
 }
