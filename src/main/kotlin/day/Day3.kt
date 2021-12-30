@@ -5,7 +5,7 @@ import kotlin.math.pow
 
 class Day3(
     private val data: List<String> = InputReader().read("day3") { it }
-): Day<List<String>> {
+): Day {
 
     override fun runFirst(): String {
         val (gamma, epsilon) = data.calculateGammaEpsilon()

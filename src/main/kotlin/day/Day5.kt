@@ -10,7 +10,7 @@ typealias VentMatrix = Array<Array<Int>>
 class Day5(
     private val data: List<Pair<Pair<Int, Int>, Pair<Int, Int>>> = InputReader()
         .read("day5") { line -> parseLine(line) }
-): Day<List<Pair<Pair<Int, Int>, Pair<Int, Int>>>> {
+): Day {
 
     override fun runFirst(): String {
         // Consider for this one only horizontal or vertical lines, see assignment description

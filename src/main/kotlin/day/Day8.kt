@@ -5,7 +5,7 @@ import util.InputReader
 class Day8(
     private val data: List<Pair<List<String>, List<String>>> = InputReader()
         .read("day8") { line -> readLine(line) }
-) : Day<List<Pair<List<String>, List<String>>>> {
+) : Day {
 
     override fun runFirst(): String {
         val amountOfUniqueDigits = data

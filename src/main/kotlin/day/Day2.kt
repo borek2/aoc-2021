@@ -4,7 +4,7 @@ import util.InputReader
 
 class Day2(
     private val data: List<String> =  InputReader().read("day2") { it }
-): Day<List<String>> {
+): Day {
 
     override fun runFirst(): String {
         val (horizontal, depth) = data

@@ -17,6 +17,7 @@ class Main {
             Day7(),
             Day8(),
             Day9(),
+            Day10(),
         )
 
         @JvmStatic

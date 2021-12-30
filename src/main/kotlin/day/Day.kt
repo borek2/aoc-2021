@@ -1,6 +1,6 @@
 package day
 
-interface Day<T> {
+interface Day {
 
     fun runFirst(): String
     fun runSecond(): String

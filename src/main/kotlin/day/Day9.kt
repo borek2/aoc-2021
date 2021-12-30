@@ -8,7 +8,7 @@ class Day9(
         .read("day9") { line ->
             line.map { it.digitToInt() }
         }
-): Day<List<List<Int>>> {
+): Day {
 
     override fun runFirst(): String {
         val lowPoints = mutableListOf<Int>()

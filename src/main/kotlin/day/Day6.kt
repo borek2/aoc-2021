@@ -9,7 +9,7 @@ class Day6(
             line.split(",").map { it.toInt() }
         }
         .flatten()
-): Day<List<Int>> {
+): Day {
 
     constructor(data: String): this(data.split(",").map { it.toInt() })
 

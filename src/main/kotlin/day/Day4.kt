@@ -8,7 +8,7 @@ class Day4(
     private val data: Bingo = InputReader()
         .read("day4") { it }
         .let { Bingo(it) }
-): Day<Day4.Bingo> {
+): Day {
 
     override fun runFirst(): String {
         return data.getScore()?.toString() ?: "-"
